@@ -1,0 +1,31 @@
+:root {
+  --cor1: ;
+  --cor2: ;
+  --cor3: ;
+  --cor4: ;
+  --cor5: ;
+  --cor6: ;
+  --cor7: ;
+}
+
+.cor1 {
+  color: var(--cor1);
+}
+.cor2 {
+  color: var(--cor2);
+}
+.cor3 {
+  color: var(--cor3);
+}
+.cor4 {
+  color: var(--cor4);
+}
+.cor5 {
+  color: var(--cor5);
+}
+.cor6 {
+  color: var(--cor6);
+}
+.cor7 {
+  color: var(--cor7);
+}
