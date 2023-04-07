@@ -7,7 +7,8 @@ p,
 ul,
 li,
 body,
-span {
+span,
+blockquote {
   margin: 0px;
   padding: 0px;
 }
@@ -19,6 +20,15 @@ li {
   list-style: none;
 }
 img {
-  max-width: 100px;
+  max-width: 100%;
   height: auto;
+  border-radius: 4px;
+}
+body {
+  font-family: "vollkorn", georgia, sans-serif;
+}
+p {
+  font: var(--p);
+  letter-spacing: -0.005em;
+  color: rgba(0, 0, 0, 0.7);
 }

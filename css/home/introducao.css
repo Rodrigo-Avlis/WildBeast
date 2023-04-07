@@ -1,0 +1,86 @@
+.introducao {
+  grid-area: introducao;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 30px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.titulo h1 {
+  font: var(--h1);
+  color: var(--cor4);
+}
+.titulo span {
+  font-size: 0.875em;
+  font-style: italic;
+  color: var(--cor4);
+}
+.caracteristicas {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+}
+.caracteristicas > div {
+  width: 80px;
+  text-align: center;
+  background: var(--bg3);
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+  position: relative;
+}
+.caracteristicas span {
+  display: block;
+  color: var(--cor4);
+}
+.numero {
+  font-size: 3em;
+  line-height: 1;
+  margin: 10px auto;
+}
+.unidade {
+  background: var(--bg1);
+  border-radius: 0 0 4px 4px;
+  padding: 5px 0px;
+  position: relative;
+  top: 2px;
+}
+.img1 {
+  align-self: end;
+}
+.img2 {
+  align-self: end;
+}
+.destaque {
+  font-size: 0.875em;
+  color: var(--cor4);
+  max-width: 16em;
+}
+.citacao,
+.atributos {
+  align-self: start;
+  padding: 30px;
+  background: var(--bg3);
+  border-radius: 4px;
+  box-shadow: 5px 5px 15px 0px rgba(44, 44, 44, 0.15);
+}
+.citacao p {
+  color: var(--cor1);
+  font-size: 1.5em;
+  font-style: italic;
+  text-align: center;
+  max-width: 500px;
+  margin: 0 auto;
+}
+.atributos li {
+  color: var(--cor1);
+  font-family: Courier, monospace;
+  font-size: 1.125em;
+  padding: 15px;
+}
+.atributos li + li {
+  border-top: 2px solid var(--cor4);
+}
+.informacoes p + p {
+  margin-top: 30px;
+}

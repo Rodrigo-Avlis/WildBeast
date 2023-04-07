@@ -1,0 +1,7 @@
+.anuncio {
+  grid-area: anuncio;
+  display: grid;
+  gap: 30px;
+  align-content: start;
+  padding: 30px;
+}

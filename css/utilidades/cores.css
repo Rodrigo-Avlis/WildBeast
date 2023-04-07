@@ -1,11 +1,12 @@
 :root {
-  --cor1: ;
-  --cor2: ;
-  --cor3: ;
-  --cor4: ;
-  --cor5: ;
-  --cor6: ;
-  --cor7: ;
+  --cor1: #ffffff;
+  --cor2: #fafbfc;
+  --cor3: #000000;
+  --cor4: #b07dfb;
+
+  --bg1: #ffffff;
+  --bg2: #fafbfc;
+  --bg3: linear-gradient(135deg, #8844ee, #b07dfb);
 }
 
 .cor1 {
@@ -20,12 +21,13 @@
 .cor4 {
   color: var(--cor4);
 }
-.cor5 {
-  color: var(--cor5);
+
+.bg1 {
+  background: var(--bg1);
 }
-.cor6 {
-  color: var(--cor6);
+.bg2 {
+  background: var(--bg2);
 }
-.cor7 {
-  color: var(--cor7);
+.bg3 {
+  background: var(--bg3);
 }
