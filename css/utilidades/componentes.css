@@ -12,3 +12,31 @@
 .row-wide {
   grid-row: span 2;
 }
+@media (max-width: 1200px) {
+  .estrutura {
+    grid-template-areas:
+      "header header header"
+      "sidenav introducao introducao"
+      "sidenav anuncio anuncio"
+      "footer footer footer";
+  }
+  .anuncio {
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  }
+}
+@media (max-width: 760px) {
+  .estrutura {
+    grid-template-columns: 100%;
+    grid-template-areas:
+      "header"
+      "sidenav"
+      "introducao"
+      "anuncio"
+      "footer";
+  }
+}
+@media (max-width: 600px) {
+  .introducao {
+    grid-template-columns: auto !important;
+  }
+}

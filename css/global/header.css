@@ -25,3 +25,19 @@
 .header-menu a:hover {
   background: rgba(0, 0, 0, 0.5);
 }
+@media (max-width: 760px) {
+  .header {
+    grid-template-columns: auto;
+    justify-items: center;
+  }
+  .logo {
+    margin-bottom: 20px;
+  }
+  .header-menu ul {
+    justify-content: center;
+    gap: 10px;
+  }
+  .header-menu a {
+    font-size: 1em;
+  }
+}
